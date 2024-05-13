@@ -1,5 +1,6 @@
 <script lang="ts">
+  
 </script>
 
-<main>
+<main class="text-white">
 </main>
