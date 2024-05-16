@@ -1,6 +1,6 @@
-<div class="circle fixed w-6 h-6 cursor-none top-0 left-0 z-40 rounded-full">
+<div class="circle fixed w-5 h-5 cursor-none top-0 left-0 z-40 rounded-full">
   <svg
-    class="cursor-none icon z-50 w-6 h-6"
+    class="cursor-none icon z-50 w-5 h-5"
     viewBox="0 0 1024 1024"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"

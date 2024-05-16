@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@iconify/svelte": "^4.0.2",
 		"gsap": "^3.12.5"
 	}
 }
