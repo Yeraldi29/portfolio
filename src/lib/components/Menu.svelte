@@ -6,41 +6,41 @@
   <nav class=" px-3 relative z-40">
     <ul class="flex items-center justify-center space-x-4">
       <li
-        class="h-10 flex items-center"
+        class="h-12 flex items-center justify-center"
         style=" box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3); "
       >
-        <Icon icon="cib:about-me" style="color: white" class="w-6 h-6" />
+        <Icon icon="cib:about-me" style="color: white" class="w-10 h-10" />
       </li>
       <li
-        class="h-10 flex items-center"
+        class="h-12 flex items-center justify-center"
         style=" box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3); "
       >
-        <Icon icon="carbon:skill-level" style="color: white" class="w-6 h-6" />
+        <Icon icon="carbon:skill-level" style="color: white" class="w-10 h-10" />
       </li>
       <li
-        class="h-10 flex items-center"
+        class="h-12 flex items-center justify-center"
         style=" box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3); "
       >
         <Icon
           icon="fluent:time-picker-24-filled"
           style="color: white"
-          class="w-6 h-6"
+          class="w-10 h-10"
         />
       </li>
       <li
-        class="h-10 flex items-center"
+        class="h-12 flex items-center justify-center"
         style=" box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3); "
       >
         <Icon
           icon="grommet-icons:projects"
           style="color: white"
-          class="w-6 h-6"
+          class="w-10 h-10"
         />
       </li>
     </ul>
   </nav>
   <div class="cube-wrap">
-    <div class="cube m-auto relative h-5 w-[220px]">
+    <div class="cube m-auto relative h-6 w-[250px]">
       <div
         class="face front absolute box-border h-full w-full bg-alloyOrange border-2 border-antiflashWhite"
       ></div>
@@ -71,11 +71,11 @@
   }
 
   .front {
-    transform: translateZ(10px);
+    transform: translateZ(12px);
   }
 
   .back {
-    transform: rotateY(180deg) translateZ(10px);
+    transform: rotateY(180deg) translateZ(12px);
   }
 
   .cube-wrap {

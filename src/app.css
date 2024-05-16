@@ -4,6 +4,6 @@
 
 @layer base {
     html {
-        @apply bg-vampireBlack text-antiflashWhite
+        @apply bg-vampireBlack text-antiflashWhite cursor-none 
     }
 }

@@ -9,6 +9,7 @@ export default {
         amaranthPurple: "#A53448",
         mediumSpringBud: "#C8CF82",
         antiflashWhite: "#EEF3F8",
+        blueViolet: "#7F27FF"
       },
     },
   },
