@@ -11,6 +11,10 @@ export default {
         antiflashWhite: "#EEF3F8",
         blueViolet: "#7F27FF"
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        merienda: ["Merienda", 'cursive']
+      }
     },
   },
   plugins: [],

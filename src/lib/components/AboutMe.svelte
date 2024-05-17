@@ -1,10 +1,11 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
+  import profileImage from "$lib/assets/profile_photo.jpg";
 </script>
 
 <div class="relative border-4 border-blueViolet rounded-2xl">
   <div class="p-6 px-8">
-    <h1 class="text-3xl text-amaranthPurple leading-10 font-bold">
+    <h1 class="text-3xl text-amaranthPurple leading-10 font-bold font-merienda">
       <span class="text-alloyOrange font-semibold flex items-center space-x-4"
         >Welcome to this corner made with <Icon
           icon="noto:heart-on-fire"
@@ -32,5 +33,11 @@
   </div>
   <div
     class="absolute w-52 h-52 bg-white rounded-full -right-24 -top-12 border-4 border-blueViolet"
-  ></div>
+  >
+    <img
+      class="w-full h-full rounded-full"
+      src={profileImage}
+      alt="profile image"
+    />
+  </div>
 </div>

@@ -2,7 +2,7 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<div class="box absolute bottom-0 left-1/2 min-h-5">
+<div class="box fixed bottom-0 left-1/2 min-h-5">
   <nav class=" px-3 relative z-40">
     <ul class="flex items-center justify-center space-x-4">
       <li
